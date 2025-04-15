@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boda de Úrsula & Alejandro</title>
+  <!-- Aquí puedes agregar los enlaces a las fuentes importadas desde Google Fonts o incluir las locales si las tienes -->
+  <link href="https://fonts.googleapis.com/css2?family=Caviar+Dreams&family=Great+Vibes&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado / Portada -->
+  <header id="inicio" class="header">
+    <div class="logo-placeholder">
+      <!-- Aquí se insertará el logo cuando esté disponible -->
+      <img src="logo_placeholder.png" alt="Logo de la boda" />
+    </div>
+    <h1 class="titulo-principal">Úrsula & Alejandro</h1>
+    <h2 class="titulo-decorativo">¡Nos casamos!</h2>
+    <p class="fecha-evento">Sábado, 23 de agosto 2025</p>
+    <a class="btn-scroll" href="#menu">Ver más</a>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="#el-gran-dia">El Gran Día</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#asistencia">Confirmación de Asistencia</a></li>
+      <li><a href="#autobus">Reserva de Autobús</a></li>
+      <li><a href="#alergias">Alergias e Intolerancias</a></li>
+      <li><a href="#hoteles">Hoteles</a></li>
+      <li><a href="#agradecimientos">Agradecimientos y Regalo</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#galeria">Galería</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección: El Gran Día -->
+  <section id="el-gran-dia" class="section">
+    <h2>El Gran Día</h2>
+    <div class="subseccion">
+      <h3>Horarios</h3>
+      <ul class="lista-horarios">
+        <li>Ceremonia: 17:00 hrs</li>
+        <li>Cóctel: 18:00 hrs</li>
+        <li>Cena: 20:00 hrs</li>
+        <li>Fiesta con barra libre: 22:00 hrs</li>
+      </ul>
+    </div>
+    <div class="subseccion">
+      <h3>Planificación del Evento</h3>
+      <p>Detalles sobre la planificación... (Aquí puedes describir cada etapa del evento con más detalle)</p>
+    </div>
+  </section>
+
+  <!-- Sección: Ubicación -->
+  <section id="ubicacion" class="section">
+    <h2>Ubicación y Cómo Llegar</h2>
+    <p>Jardines del Trapiche, Vélez-Málaga</p>
+    <a href="https://www.google.com/maps/place/Jardines+del+Trapiche" target="_blank" class="btn">Ver en Google Maps</a>
+  </section>
+
+  <!-- Sección: Confirmación de Asistencia -->
+  <section id="asistencia" class="section">
+    <h2>Confirmación de Asistencia</h2>
+    <p>Por favor, confirma tu asistencia rellenando el formulario a continuación:</p>
+    <!-- Espacio para insertar el Google Form -->
+    <div class="form-embed">
+      <!-- Pega aquí el código embed del formulario -->
+      <!-- Ejemplo: <iframe src="TU_GOOGLE_FORM_EMBED_URL" frameborder="0" width="100%" height="800"></iframe> -->
+      <p>[Inserta aquí el Google Form de asistencia]</p>
+    </div>
+  </section>
+
+  <!-- Sección: Reserva de Autobús -->
+  <section id="autobus" class="section">
+    <h2>Reserva de Autobús</h2>
+    <p>Completa este formulario para reservar tu plaza en el autobús:</p>
+    <div class="form-embed">
+      <p>[Inserta aquí el Google Form de autobús]</p>
+    </div>
+  </section>
+
+  <!-- Sección: Alergias e Intolerancias -->
+  <section id="alergias" class="section">
+    <h2>Alergias e Intolerancias</h2>
+    <p>Cuéntanos si tienes alguna alergia, intolerancia o preferencia alimentaria:</p>
+    <div class="form-embed">
+      <p>[Inserta aquí el Google Form de alergias/intolerancias]</p>
+    </div>
+  </section>
+
+  <!-- Sección: Hoteles -->
+  <section id="hoteles" class="section">
+    <h2>Información de Hoteles</h2>
+    <p>Aquí tienes algunas sugerencias de alojamiento en la zona:</p>
+    <div class="hotel-info">
+      <div class="tarjeta-hotel">
+        <h3>Hotel Ejemplo 1</h3>
+        <p>Descripción, teléfono, y enlace para reservar.</p>
+      </div>
+      <div class="tarjeta-hotel">
+        <h3>Hotel Ejemplo 2</h3>
+        <p>Descripción, teléfono, y enlace para reservar.</p>
+      </div>
+      <!-- Agrega más tarjetas según sea necesario -->
+    </div>
+  </section>
+
+  <!-- Sección: Agradecimientos y Regalo -->
+  <section id="agradecimientos" class="section">
+    <h2>Agradecimientos y Regalo</h2>
+    <p>Si deseas hacer una aportación, aquí tienes los datos:</p>
+    <p><strong>Número de cuenta:</strong> xxxx-xxxx-xxxx-xxxx</p>
+  </section>
+
+  <!-- Sección: Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna consulta, no dudes en escribirnos.</p>
+    <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Sección: Galería / Extra -->
+  <section id="galeria" class="section">
+    <h2>Durante la Boda y Postboda</h2>
+    <p>Sube tus fotos mediante el QR o consulta las fotos oficiales más adelante.</p>
+    <!-- Aquí podrías incluir un script o vínculo para la subida de fotos, o simplemente un enlace para visualizar una galería -->
+    <p>[Espacio para galería de fotos]</p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <p>© 2025 Úrsula & Alejandro - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
